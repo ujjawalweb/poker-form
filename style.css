@@ -26,7 +26,7 @@ background-color: #fff;
 
 	.wdth{width:350px !important; background:#061058 ; height: 498px; border-radius: 45px 0px 0px 0px;}
 
-	.second-side{background-color:#2744a6 ;    height: 498px; border-radius: 0px 0px 45px 0px;
+	.second-side{background-color:#142970; ;    height: 498px; border-radius: 0px 0px 45px 0px;
 		
 	}
 
@@ -97,7 +97,7 @@ background-color: #fff;
 	color:#fff !important;
     
     margin-bottom: -12px;
-   background-color:rgb(39 68 166) !important;
+   background-color:rgb(20 41 112)  !important;
 
    }
 
@@ -140,7 +140,7 @@ body{overflow-x: hidden;}
 	}
 
 	.second-side {
-		background:#2744a6;
+		background:#142970;
 		height: 400px;
 		10px: 0px 10px 10px 0px;
 		margin-top: -20px;
