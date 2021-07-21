@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <linl rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <!--font-->
+    
+ 
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
+    
+
+
+
+    <style>
+
+        body,html{overflow-y: hidden;}
+        @media only screen and (max-width: 600px) {
+            .mains {
+    position: relative!important;
+    top: -64px!important;
+    width: 140px !important;
+    left: 131px !important;}
+}
+        </style>
+ 
+</head>
+<body>
+    <body class="bg">
+	
+        <div class="container my">
+       <div class="row">
+           <div class="col-md-6 wdth">
+       <img src="images/logo.png"  width="200" class="mypic">
+       <h2 class="ludo">Welcome To  <br><span class="rum">Poker Dhamaal</span></h2>
+       
+       <h4 id="notshows">Already have an account?</h4>
+
+       <button class="buy-btn mx" style="width:224px;margin-top:-40px;">Download and Play</button>
+       
+       
+       
+       
+           </div>
+       
+       
+           <div class="col-md-6 second-side">
+               <div id="form-cont">
+               <h2>SIGNUP & START WINING</h2>
+           <form>
+               <div class="form-row my-row">
+                 <div class="form-group col-md-6">
+                   <label for="inputEmail4"></label>
+                   <input type="text" class="form-control" id="inputEmail4" placeholder="Username" required >
+                 </div>
+                 <div class="form-group col-md-6">
+                   <label for="inputPassword4"></label>
+                   <input type="password" class="form-control" id="inputPassword4" placeholder="Password" required  >
+                 </div>
+               </div>
+       
+               <div class="form-row my-row">
+                   <div class="form-group col-md-6 ">
+                     <label for="inputEmail4"></label>
+                     <input type="text" class="form-control" id="inputphn" placeholder="Phone No" required  >
+                   </div>
+                   <div class="col-md-6">
+                   <button class="box">Send OTP <i class="fa fa-refresh"></i></button>
+                   </div>
+                 </div>
+       
+       
+       
+               <div class="form-row">
+                 <div class="form-group col-md-12">
+                   <label for="inputCity"></label>
+                   <input type="text" class="form-control" id="inputotp" placeholder="Enter OTP" style="width:39% !important;">
+                 </div>
+               
+                
+               </div>
+       
+               <div class="form-row my-row">
+                   <div class="col-md-6">
+                 <div class="form-check mtop">
+                   <input class="form-check-input" type="checkbox" id="myCheck" onclick="myFunction()">
+                   <label class="form-check-label  promo"  disabled for="gridCheck1">  
+                       &nbsp;  Have a Promo Code?
+                   </label>
+                 </div>
+               </div>
+       
+                 <div class="form-group col-md-6">
+                   <label for="inputCity"></label>
+                   <input type="text" class="form-control" id="text" placeholder="Enter your Promocode">
+                 </div>
+               
+       
+               </div>
+       
+       
+               <div class="form-row">
+                   <div class="col-md-12">
+                       <div class="form-check mtop">
+                         <input class="form-check-input chk" type="checkbox" id="gridChecks" style="position: relative;top:-20px;">
+                         <label class="form-check-label" for="gridChecks1">&nbsp;
+                       I accept to the term and conditions , privacy policy and <br>&nbsp;&nbsp;&nbsp;<span class="para">confirm that I am legally of age</span>
+                         </label>
+                       </div>
+                 
+                  <div class="col-md-12 mtops">
+       
+               <button class="buy-btn mains" id="my-btn">Signup</button> &nbsp; &nbsp;
+                   <button class="buy-btn mains">Cancel</button> 
+                   
+                  </div>
+                 </div>
+           
+             </form>
+       
+       
+       
+       
+           </div>
+       
+       
+       </div>
+       <div id="show-cont">
+           <div class="card" style="width: 18rem;margin-left: 190px;">
+       
+               <div class="card-body">
+                   <i class="fa fa-check-circle text-center"></i><br>
+                 <h5 class="card-title text-white text-center"style="color:#fff;">Success</h5>
+                 <p class="text" style="color:#fff;">Congratulations, your account has been successfully created . Download the app, login and enjoy the game..</p>
+               <button class="buy-btn" style="width:264px;margin-top:40px;">Download and Play Now</button>
+               </div>
+             </div>
+           
+       
+       
+       
+       </div>
+       </div>
+        </div> 
+       
+       
+       
+       
+         
+         <!-- Modal -->
+            
+       
+       
+       
+           <script>
+       function myFunction() {
+         // Get the checkbox
+         var checkBox = document.getElementById("myCheck");
+         // Get the output text
+         var text = document.getElementById("text");
+       
+         // If the checkbox is checked, display the output text
+         if (checkBox.checked == true){
+           text.style.display = "block";
+           
+         } else {
+           text.style.display = "none";
+         }
+       }
+               </script>
+       
+       
+       <script>
+       $(".btn-default").on('click', function() {
+         $(".custom-model-main").addClass('model-open');
+       }); 
+       $(".close-btn, .bg-overlay").click(function(){
+         $(".custom-model-main").removeClass('model-open');
+       });
+       
+       
+       </script>
+       
+       
+       <script>
+        $(document).ready(function(){
+          $("#my-btn").click(function(){
+            $(".mx").hide();
+        
+          });
+    
+    
+      
+        
+        });
+        </script>
+
+
+       <script>
+           $(document).ready(function(){
+             $("#my-btn").click(function(){
+               $("#form-cont").hide();
+           
+             });
+       
+       
+         
+           
+           });
+           </script>
+       <script>
+           $(document).ready(function(){
+             $("#my-btn").click(function(){
+               $("#notshow").hide();
+           
+             });
+       
+       
+         
+           
+           });
+           </script>
+       
+       <script>
+           $(document).ready(function(){
+             $("#my-btn").click(function(){
+               $("#notshows").hide();
+               $("#show-cont").show();
+             });
+       
+       
+         
+           
+           });
+           </script>
+       
+        
+</body>
+</html>
